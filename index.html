@@ -31,9 +31,15 @@
             height: 100%;
             background: #000;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             z-index: 9999;
+        }
+
+        #logo {
+            width: 400px;
+            margin-bottom: 50px;
         }
 
         #loading-text {
@@ -41,6 +47,7 @@
             font-family: Arial, sans-serif;
             font-size: 24px;
         }
+
     </style>
     <link rel="icon" href="data:,">
     <script>if ('serviceWorker' in navigator) {
@@ -50,7 +57,10 @@
   }</script>
 </head>
 <body>
-    <div id="loading"><span id="loading-text">Loading...</span></div>
+    <div id="loading">
+        <img id="logo" src="WebBlox.png">
+        <span id="loading-text">Loading...</span>
+    </div>
     <canvas id="canvas" oncontextmenu="return false"></canvas>
     <script>(function () {
     var loadingDiv  = document.getElementById('loading');
