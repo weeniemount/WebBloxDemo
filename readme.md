@@ -4,7 +4,7 @@
  I will try my best to keep this site up to date, and keep archives of all of the versions on this repository and saved locally just in case I get DMCA'ed or sum stupid shit
 
 # Installation Guide
-##This is for anyone who wants to run this offline, as of version 0.1 Demo (I literally js made up the version number)
+## This is for anyone who wants to run this offline, as of version 0.1 Demo (I literally js made up the version number)
 ## Step 1
 Download the whole entire repo
 ## step 2
