@@ -1,0 +1,35 @@
+{
+  "name": "WebBlox",
+  "short_name": "WebBlox",
+  "description": "WebBlox Demo",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "start_url": "/WebBloxDemo",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "832x673",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "favicon.png",
+      "sizes": "832x673",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "WebBlox on desktop"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "832x673",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "WebBlox on mobile"
+    }
+  ]
+}
